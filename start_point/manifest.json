@@ -1,8 +1,7 @@
 {
   "display_name": "Java, Cucumber",
-  "image_name": "cyberdojofoundation/java_cucumber_pico",
-  "visible_filenames":
-  [
+  "image_name": "cyberdojofoundation/java_cucumber_pico:4ca67ef",
+  "visible_filenames": [
     "README",
     "Hiker.feature",
     "Hiker.java",
@@ -10,7 +9,10 @@
     "RunCukesTest.java",
     "cyber-dojo.sh"
   ],
-  "filename_extension": [ ".java", ".feature" ],
+  "filename_extension": [
+    ".java",
+    ".feature"
+  ],
   "max_seconds": 15,
   "tab_size": 4
 }
