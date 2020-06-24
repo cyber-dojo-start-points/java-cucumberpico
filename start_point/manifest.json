@@ -1,6 +1,6 @@
 {
   "display_name": "Java, Cucumber",
-  "image_name": "cyberdojofoundation/java_cucumber_pico:c63223b",
+  "image_name": "cyberdojofoundation/java_cucumber_pico:b62386b",
   "visible_filenames": [
     "README",
     "Hiker.feature",
