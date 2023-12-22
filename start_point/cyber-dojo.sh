@@ -3,7 +3,7 @@ CLASSES=.:`ls /cucumber/*.jar | tr '\n' ':'`
 javac \
   --class-path $CLASSES  \
   --enable-preview \
-  --release 14 \
+  --release 21 \
   -Xlint:unchecked \
     *.java
 

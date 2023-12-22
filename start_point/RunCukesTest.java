@@ -5,8 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     monochrome = true,
-    plugin = { "pretty" },
-    strict = true
+    plugin = { "pretty" }
 )
 public class RunCukesTest {
     // this is the adapter/bridge code
