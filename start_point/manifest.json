@@ -1,6 +1,6 @@
 {
-  "display_name": "Java 21, Cucumber 7 with JUnit 4",
-  "image_name": "cyberdojofoundation/java_cucumber_pico:8008251",
+  "display_name": "Java 21, Cucumber 7.20.1 with JUnit 4",
+  "image_name": "ghcr.io/cyber-dojo-languages/java_cucumber_pico:1b7cee5",
   "visible_filenames": [
     "README",
     "Hiker.feature",
