@@ -1,4 +1,4 @@
-[![Github Action (main)](https://github.com/cyber-dojo-start-points/java-cucumberpico/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-start-points/java-cucumberpico/actions)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
 
 ### display_name="Java 21, Cucumber 7.20.1 with JUnit 4"
