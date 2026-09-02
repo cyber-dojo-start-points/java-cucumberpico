@@ -1,14 +1,14 @@
 {
-  "display_name": "Java 21, Cucumber 7.20.1 with JUnit 4",
+  "display_name": "Java 26.0.2.1, Cucumber 7.34.7 with JUnit 4",
   "language": [
     "Java",
-    "21"
+    "26.0.2.1"
   ],
   "test_framework": [
     "Cucumber",
-    "7.20.1"
+    "7.34.7"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/java_cucumber_pico:1b7cee5",
+  "image_name": "ghcr.io/cyber-dojo-languages/java_cucumber_pico:0112c3f",
   "visible_filenames": [
     "README",
     "Hiker.feature",
@@ -17,10 +17,15 @@
     "RunCukesTest.java",
     "cyber-dojo.sh"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [
     ".java",
     ".feature"
   ],
   "max_seconds": 15,
-  "tab_size": 4
+  "tab_size": 4,
+  "progress_regexs": [
+    "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
+    "OK \\((\\d)+ test(s)?\\)"
+  ]
 }
