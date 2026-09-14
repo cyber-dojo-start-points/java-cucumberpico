@@ -1,0 +1,8 @@
+{
+  "match_counts": {
+    "^Hiker\\.java:[0-9]+: error: cannot find symbol$": 1,
+    "^OK \\(": 0,
+    "^Tests run: ": 0
+  },
+  "truncated": false
+}

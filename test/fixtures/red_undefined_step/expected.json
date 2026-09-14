@@ -1,0 +1,8 @@
+{
+  "matches": [ "UndefinedStepException: The step 'the board is cleared away' is undefined\\." ],
+  "match_counts": {
+    "^Tests run: 1, +Failures: 1$": 1,
+    "^OK \\(": 0
+  },
+  "truncated": false
+}

@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    "^Tests run: 3, +Failures: 1$": 1,
+    "^OK \\(": 0
+  },
+  "truncated": false
+}

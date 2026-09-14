@@ -1,0 +1,8 @@
+{
+  "match_counts": {
+    "^HikerStepDef\\.java:[0-9]+: error: ';' expected$": 1,
+    "^OK \\(": 0,
+    "^Tests run: ": 0
+  },
+  "truncated": false
+}

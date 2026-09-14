@@ -1,0 +1,8 @@
+{
+  "max_output_lines": 20,
+  "match_counts": {
+    "^OK \\(1 test\\)$": 1,
+    "^Tests run: ": 0
+  },
+  "truncated": false
+}
