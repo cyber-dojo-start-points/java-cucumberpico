@@ -31,10 +31,14 @@ TEST_JVM_OPTS+=(-XX:TieredStopAtLevel=1)             # as above, for the JVM run
 TEST_JVM_OPTS+=(-XX:+UseSerialGC)                    # as above
 TEST_JVM_OPTS+=(-XX:AOTCache=/aot/junit-runner.aot)  # Cucumber's classes and JUnit's
 
+# Cucumber marks its JUnit 4 runner, which RunCukesTest.java uses, for
+# removal. That warning is about this start point's choice of runner, not the
+# code a learner writes, so -Xlint:-removal keeps it out of every test run.
 javac \
   "${JAVAC_JVM_OPTS[@]}" \
   --class-path $CLASSES \
   -Xlint:unchecked \
+  -Xlint:-removal \
     *.java
 
 if [ $? -eq 0 ]; then
