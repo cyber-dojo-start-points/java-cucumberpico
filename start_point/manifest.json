@@ -22,7 +22,6 @@
     ".java",
     ".feature"
   ],
-  "max_seconds": 15,
   "tab_size": 4,
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
