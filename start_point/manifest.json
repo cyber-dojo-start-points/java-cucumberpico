@@ -1,14 +1,14 @@
 {
-  "display_name": "Java 27, Cucumber 8.0.4 with JUnit 4",
+  "display_name": "Java 27.0.1.0.3, Cucumber 8.0.4 with JUnit 4",
   "language": [
     "Java",
-    "27"
+    "27.0.1.0.3"
   ],
   "test_framework": [
     "Cucumber",
     "8.0.4"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/java_cucumber_pico:5733fe1@sha256:7b1aeba13321a3f60f24a05661fc00d35df18abb580a7c10cf9eb3de911439a2",
+  "image_name": "ghcr.io/cyber-dojo-languages/java_cucumber_pico:177c1e5@sha256:33c153fbf4ea1c61c2d44e2f52811df5eaf6be58b9895fe3ad73e5ec9223e46a",
   "visible_filenames": [
     "README",
     "Hiker.feature",
